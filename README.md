@@ -35,6 +35,6 @@ Notes
 ____________
 Upcoming
 ---------------  
-  * - [ ] boombox
+  * - [ ] boombox (instead of playsound)
     * https://pypi.org/project/boombox/
     * supports more filetypes  
