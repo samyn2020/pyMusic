@@ -23,7 +23,7 @@ Features
 ____________
 Notes  
 ---------------
-* The sfx folder and playSound.py need to be in the same folder  
+* The sfx folder and pyMusic.py need to be in the same folder  
 * Append features to directory to toggle them (in this case, shuffle and list)  
   * `C:\your\music\directory\?shuffle?list`  
 * Leaving the directory blank will cause the player to use the desktop as the chosen directory  
