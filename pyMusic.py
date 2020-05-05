@@ -14,16 +14,19 @@ shuff = False
 rep = False
 wait = False
 disp = False
-if '?' in values[0]:
-    values = values[0].split('?')
-    if 'shuffle' in values:
-        shuff = True
-    if 'repeat' in values:
-        rep = True
-    if 'wait' in values:
-        wait = True
-    if 'list' in values:
-        disp = True
+try:
+    if '?' in values[0]:
+        values = values[0].split('?')
+        if 'shuffle' in values:
+            shuff = True
+        if 'repeat' in values:
+            rep = True
+        if 'wait' in values:
+            wait = True
+        if 'list' in values:
+            disp = True
+except:
+    raise SystemExit("player closed")
 
 # base path
 if values[0][:2] in ['C:', 'D:', 'E:', 'F:', 'G:', 'H:', 'I:', 'J:']:
